@@ -1,0 +1,168 @@
+
+#buttons{
+    background-color:aquamarine;
+    width: 50%;
+    height: 40px;
+    border: 3px,solid,black;
+} 
+
+#title{
+    color:cornflowerblue;
+
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #d2edda;
+    border: 1px solid #b5eedb;
+    border-radius: 5px;
+   
+  }
+  .keyBordButtons{
+    margin-top: 15%;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  #user{
+    height: 35vh;
+    background-color:rgb(21, 94, 188);
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    margin: 10px;
+   
+}
+
+  #title {
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  h2 {
+    text-align: center;
+    
+  }
+  
+
+  button {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+  }
+
+  .add-users {
+    border: 3px solid black;
+    margin: 0 auto; 
+    padding: 2rem;
+    width: 450px;
+    text-align: center;
+    position: relative; 
+    top: -150px;
+}
+
+  .add-users h1 {
+    color: cornflowerblue;
+    margin-top: 20px;
+  }
+
+  .add-users input[type="text"] {
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 1rem 0;
+    width: 100%;
+  }
+
+.game-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+ 
+    
+}
+.B-New1,
+.B-Add-Start1{
+    height: 8vh;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+    margin-left: 45.2%;
+    position: absolute; 
+    top: 30%;
+    }
+    .B-New1,
+.BAdd,
+.B-Add-Start1{
+  color: #fefefe;
+  background: rgb(21, 94, 188);
+  -webkit-transition: none;
+  -moz-transition: none;
+  transition: none;
+  border: 4px solid,rgb(21, 94, 188);
+  text-align: center;
+}
+.B-New1,
+.BAdd,
+.B-Add-Start1:hover {
+  background: transparent;
+}
+.B-New1,
+.BAdd,
+.B-Add-Start1{
+  border-radius: 15px;
+  border: 4px double #86caef;
+}
+.B-New1,
+.BAdd,
+.B-Add-Start1:hover {
+  color: #62757f;
+}
+.B-New1{
+  right: 45%;
+}
+.B-New2,
+.B-Add-Start2{
+  color: #fefefe;
+  background: rgb(198, 215, 236);
+  -webkit-transition: none;
+  -moz-transition: none;
+  transition: none;
+  border: 4px solid,rgb(166, 198, 240);
+  text-align: center;
+}
+
+#win{
+font-size: 60px;
+}
+
+.wins {
+  border: 4px double #86caef;
+  width: 20%;
+  height: 20vh;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  overflow: auto;
+  height: 300px;
+}
+
+.wins ul {
+  list-style: none;
+  padding: 0;
+}
+
+.wins li {
+  margin-bottom: 5px;
+  flex-grow: 1;
+}
