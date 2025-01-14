@@ -4,9 +4,9 @@
     const UserCard=({user,updateUser,LeaveUser})=>{
     const [isButtonDisabled, setIsButtonDisabled] = useState(false)
     const [winners, setWinners] = useState([])
-    const handleButtonClick = (operation) => {
+    const handleButtonClick = (choose) => {
         let newNum
-        switch (operation) {
+        switch (choose) {
             case "+":
                 newNum = user.num + 1
                 break

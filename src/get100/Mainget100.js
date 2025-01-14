@@ -29,20 +29,22 @@ const addUser = (name)=>{
 
     const updateUser=(user)=>{
         let nextPlayer
-
+//אם זכה נכנס למערך הזוכים
     if (user.num === 100) {
         setWinners([...winners, user]);
       }
-  
+//מחפשים את המשתמש הבא
     nextPlayer=users.find((u)=>{
      return u.id > user.id && !u.win
     })
+//גדול אז הוא הולך לראשון id אם אין 
     if(!nextPlayer)
     {
      nextPlayer=users.find((u)=>{
          return u.id <= user.id && !u.win
         })
     }
+//מעדכן את המשתמש 
     const userMap=users.map((u)=>{
      if(u.id===user.id)
      {

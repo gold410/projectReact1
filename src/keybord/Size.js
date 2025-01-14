@@ -8,8 +8,6 @@ const Size=({changeSize})=>{
 return (
 <div >
 <select onChange={(event)=>changeSize(event.target.value)}>
-        
-
         <option value="25">25</option>
         <option value="30">30</option>
         <option value="35">35</option>
